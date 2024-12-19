@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: "Oswald", serif;
+        }
+        nav{
+            background-color: midnightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+        }
+        header{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            background-image: url(images/business.jpg);
+        }
+        #titular{
+            text-align: center;
+        }
+        section{
+            text-align: center;
+            padding: 20px;
+        }
+        #titulo{
+            color: purple;
+            font-size: 0.9em;
+        }
+        #img{
+            border-radius: 50%;
+        }
+        footer{
+            background-color: grey;
+            height: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 600px){
+            nav a{
+                display: block;
+                text-align: center;
+            }
+            nav{
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Quienes Somos</a>
+        <a href="#">Consultoría</a>
+        <a href="#">Diseño Web</a>
+        <a href="#">Dónde estamos</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <header>
+    <div id="titular">
+        <h1>Bosco Business</h1>
+        <h2>Tu puerta al futuro</h2>
+    </div>
+    </header>
+    <section>
+    <h2 id="titulo">Lo dicen nuestros clientes</h2>
+    <img src="images/chica.jpg" id="img">
+    <h4>Bosco Business una solución para mi empresa</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos excepturi velit recusandae doloremque ipsa nihil iure in, saepe rerum exercitationem distinctio perferendis, facilis, incidunt deserunt deleniti officiis quos quidem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos excepturi velit recusandae doloremque ipsa nihil iure in, saepe rerum exercitationem distinctio perferendis, facilis, incidunt deserunt deleniti officiis quos quidem!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eos excepturi velit recusandae doloremque ipsa nihil iure in, saepe rerum exercitationem distinctio perferendis, facilis, incidunt deserunt deleniti officiis quos quidem!
+    </p>
+    </section>
+    <footer>
+    <p>&copy;2020 Bosco Design S.L.</p>
+    </footer>
+
+</body>
+</html>
